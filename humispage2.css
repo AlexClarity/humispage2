@@ -1,0 +1,169 @@
+body{
+    background: #737373;
+}
+
+.container {
+    border: 1px solid blue;
+    width: 780px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container header{
+    min-height: 170px;
+    background: #6c841a;
+}
+
+.container header > img {
+    display: block;
+    width: 100%;
+}
+
+.nav a {
+    color: Black;
+    text-transform: uppercase;
+    margin: 0 2px;
+    padding: 3px;
+    text-decoration: none;
+}
+.nav span a:hover {
+    text-decoration: underline;
+}
+
+.nav span:after {
+    content: " |";
+    font-size: 9px;
+}
+
+.nav span:last-of-type:after {
+    content:"";
+}
+.link-container span:last-of-type:after {
+    content:"";
+}
+.link-container span:after {
+    content: " |";
+    font-size: 9px;
+}
+
+.nav a img {
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+}
+.middle {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.guts {
+    min-height: 500px;
+}
+
+div.middle section.guts aside.nav {
+    float: left;
+    width: 200px;
+    min-height: 600px;
+    background-color: rgba(0,0,0,0.05);
+    border-right: 1px solid #6c841a;
+    padding: 20px;
+}
+
+aside.nav a {
+    display: block;
+    border-bottom: 1.5px solid #344c22;
+    font-size: 65%;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+
+aside.nav div.nav-img-links {
+    margin-top: 12rem;
+    text-align: center;
+}
+aside.nav div.nav-img-links a {
+    border-bottom: unset;
+}
+
+aside.nav div.nav-img-links a:hover {
+    background-color: unset;
+}
+
+aside.nav a:hover {
+    background-color: #6c841a;
+    color: white;
+}
+
+div.middle section.guts article.main {
+    float: right;
+    width: 460px;
+    min-height: 600px;
+    background-color: white;
+    padding: 0 2rem 0 0;
+    max-width: 100%;
+
+}
+
+.link-container span a{
+    text-transform: uppercase;
+    font-size: 9px;
+    text-decoration: none;
+    color: black;
+}
+
+#small-u-icon {
+    max-width: 10px;
+    max-height: 10px;
+}
+
+article.main img{
+    width:100%;
+}
+article.main h1{
+    color: crimson;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.floated{
+    width: 35%;
+    color: crimson;
+    text-align: center;
+
+    &.right{
+        float: right;
+        margin-right: 1rem;
+        padding: 0 0 8px 8px;
+    }
+}
+
+div.content p{
+    margin-top: 0;
+    font-size: 12px;
+}
+
+article.main a:hover {
+    text-decoration: underline;
+}
+
+article.main div.content{
+    min-height: 550px;
+    font-size: 13px;
+}
+
+footer{
+    background-color: #6c841a;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    padding: 2px 0;
+}
+.bottom span a{
+    text-transform: lowercase;
+    font-size: 10px;
+
+}
