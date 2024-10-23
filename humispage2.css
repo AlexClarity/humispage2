@@ -1,4 +1,4 @@
-body{
+body {
     background: #737373;
 }
 
@@ -11,7 +11,7 @@ body{
     background-color: white;
 }
 
-.container header{
+.container header {
     min-height: 170px;
     background: #6c841a;
 }
@@ -22,12 +22,13 @@ body{
 }
 
 .nav a {
-    color: Black;
+    color: black;
     text-transform: uppercase;
     margin: 0 2px;
     padding: 3px;
     text-decoration: none;
 }
+
 .nav span a:hover {
     text-decoration: underline;
 }
@@ -38,11 +39,13 @@ body{
 }
 
 .nav span:last-of-type:after {
-    content:"";
+    content: "";
 }
+
 .link-container span:last-of-type:after {
-    content:"";
+    content: "";
 }
+
 .link-container span:after {
     content: " |";
     font-size: 9px;
@@ -53,6 +56,7 @@ body{
     width: 10px;
     height: 10px;
 }
+
 .middle {
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -66,7 +70,7 @@ div.middle section.guts aside.nav {
     float: left;
     width: 200px;
     min-height: 600px;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     border-right: 1px solid #6c841a;
     padding: 20px;
 }
@@ -83,7 +87,12 @@ aside.nav a {
 aside.nav div.nav-img-links {
     margin-top: 12rem;
     text-align: center;
+
+    img {
+        width: 100%;
+    }
 }
+
 aside.nav div.nav-img-links a {
     border-bottom: unset;
 }
@@ -107,41 +116,46 @@ div.middle section.guts article.main {
 
 }
 
-.link-container span a{
-    text-transform: uppercase;
-    font-size: 9px;
-    text-decoration: none;
-    color: black;
+.link-container {
+    text-align: right;
+
+    span a {
+        text-transform: uppercase;
+        font-size: 9px;
+        text-decoration: none;
+        color: black;
+    }
 }
 
 #small-u-icon {
-    max-width: 10px;
-    max-height: 10px;
+    max-width: 11px;
+    max-height: 11px;
 }
 
-article.main img{
-    width:100%;
+article.main img {
+    width: 100%;
 }
-article.main h1{
+
+article.main h1 {
     color: crimson;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
 
-.floated{
+.floated {
     width: 35%;
     color: crimson;
     text-align: center;
 
-    &.right{
+    &.right {
         float: right;
         margin-right: 1rem;
         padding: 0 0 8px 8px;
     }
 }
 
-div.content p{
+div.content p {
     margin-top: 0;
     font-size: 12px;
 }
@@ -150,20 +164,24 @@ article.main a:hover {
     text-decoration: underline;
 }
 
-article.main div.content{
+article.main div.content {
     min-height: 550px;
     font-size: 13px;
 }
 
-footer{
+footer {
     background-color: #6c841a;
     color: white;
     font-size: 9px;
     text-align: center;
     padding: 2px 0;
 }
-.bottom span a{
+
+.bottom {
+    text-align: right;
+}
+
+.bottom span a {
     text-transform: lowercase;
     font-size: 10px;
-
 }
